@@ -1,2 +1,2 @@
-Applied CSS Studies.
+Applied CSS studies
  
