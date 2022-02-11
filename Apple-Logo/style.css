@@ -1,0 +1,41 @@
+body{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.Apple::before{
+    content: '';
+    background-color: #fff;
+    height: 66px;
+    width: 66px;
+    position: absolute;
+    border-radius: 100% 0;
+    top: -67px;
+    left: 124px;
+    z-index: 1;
+    box-shadow:10px 5px 5px black;
+}
+
+div.Apple{
+    background: linear-gradient(#fff,rgb(184, 184, 184),rgb(73, 73, 73));
+    height: 230px;
+    width: 250px;
+    position: relative;
+    border-radius: 35% 35% 44% 44% / 42% 42% 75% 75%;
+    box-shadow:10px 5px 5px black;
+
+}
+div.Apple::after{
+    content: '';
+    background-color: #1a1a1a;
+    height: 130px;
+    width: 140px;
+    position: absolute;
+    left: 200px;
+    top: 16px;
+    border-radius: 100%;
+    box-shadow: -145px -129.5px 0 #1a1a1a, -145px 198.5px 0 #1a1a1a;
+}
